@@ -1,0 +1,62 @@
+
+html, body{
+  height: 100%;
+  background-color: #303030;
+  font-family: 'Roboto', sans-serif;
+}
+
+.divider {
+  background-color: #303030;
+  padding: 2%;
+}
+
+.header {
+  background-image: url('./images/backg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  background-position:  50% 50%;
+}
+
+.title-header {
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 9%;
+  
+}
+
+.setup1, .setup2 {
+  display: flex;
+  align-items: center;
+}
+
+.card-vsco {
+  color: white;
+  background-color: transparent;
+  margin: 50px;
+  padding-bottom: 50px;
+  border-color: #303030;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./images/beachgermany.jpg');
+  background-size: cover;
+  min-height: 50vh;
+  background-position:  50% 50%;
+}
+
+.footer {
+  background-color: #303030;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  justify-content: space-evenly;
+}
